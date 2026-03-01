@@ -1,0 +1,50 @@
+{
+  "name": "agentdoc",
+  "version": "0.1.0",
+  "description": "Beautiful PDFs from AI agents. Block-based. Zero design required.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "agentdoc": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "src/themes"
+  ],
+  "scripts": {
+    "build": "tsc && cp -r src/themes dist/themes",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pdf",
+    "ai",
+    "agent",
+    "document",
+    "report",
+    "block-based",
+    "puppeteer",
+    "langchain",
+    "crewai",
+    "openai"
+  ],
+  "author": "Cora Intelligence <hello@cora-intelligence.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cora-intelligence/agentdoc"
+  },
+  "homepage": "https://github.com/cora-intelligence/agentdoc",
+  "dependencies": {
+    "marked": "^15.0.0",
+    "puppeteer": "^24.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

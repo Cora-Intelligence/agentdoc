@@ -174,13 +174,35 @@ agentdoc gives your agent 22 block types. Each one is designed to always look go
 
 Pick a theme. Everything looks cohesive. The agent just passes a string.
 
-| Theme | Style |
-|-------|-------|
-| `clean` | White, blue accents, Inter font. Professional and versatile. **(default)** |
-| `modern-dark` | Dark background, vibrant accents. Tech-forward. |
-| `corporate` | Navy/gold, Georgia headings. Enterprise-ready. |
-| `minimal` | Maximum whitespace, thin lines. Elegant and understated. |
-| `bold` | Large type, high contrast, red accents. Attention-grabbing. |
+### Clean (default)
+
+White background, blue accents, Inter font. Professional and versatile.
+
+![Clean theme](docs/themes/clean-preview.png)
+
+### Modern Dark
+
+Dark layered surfaces, cyan accents. Linear/Vercel aesthetic.
+
+![Modern Dark theme](docs/themes/modern-dark-preview.png)
+
+### Corporate
+
+Navy palette, Georgia serif headings, sharp corners. McKinsey/Deloitte feel.
+
+![Corporate theme](docs/themes/corporate-preview.png)
+
+### Minimal
+
+Extreme whitespace, monochrome zinc palette, single red accent. Dieter Rams reduction.
+
+![Minimal theme](docs/themes/minimal-preview.png)
+
+### Bold
+
+Max contrast, large type, orange accents, inverted dark cover. Conference keynote energy.
+
+![Bold theme](docs/themes/bold-preview.png)
 
 ### Custom Branding
 
